@@ -13,7 +13,7 @@ private NameFormatter(){}
 
         return prefix;
     }
-    public static String format(){
+    public static String format(String fullName){
 
         return fullName;
     }
