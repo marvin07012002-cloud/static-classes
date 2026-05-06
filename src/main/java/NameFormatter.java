@@ -1,9 +1,9 @@
 public class NameFormatter {
 private NameFormatter(){}
-    public static String format(String firstName,
-                                String lastName){
+    public static String format(String firstName, String lastName){
 
-        return firstName;
+
+        return lastName + firstName;
     }
     public static String format(String prefix,
                                 String firstName,
@@ -11,7 +11,7 @@ private NameFormatter(){}
                                 String lastName,
                                 String suffix){
 
-        return prefix;
+        return lastName + prefix + firstName + middleName + suffix;
     }
     public static String format(String fullName){
 
