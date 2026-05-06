@@ -8,6 +8,15 @@ public class FormattingFactory {
         fullName = NameFormatter.format(fullName);
         System.out.println(fullName);
 
+        System.out.println("whats your first name and last name?");
+        String firstAndLastName = scanner.nextLine();
+        firstAndLastName = NameFormatter.format(firstAndLastName);
+        System.out.println(firstAndLastName);
+
+        System.out.println("whats your prefix, full name and suffix ?");
+        String completeName = scanner.nextLine();
+        completeName = NameFormatter.format(completeName);
+        System.out.println(completeName);
 
 
     }
